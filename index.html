@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js"></script>
+    <title>Learny</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <div id="logo">
+        <img src="https://imgur.com/btzqkXl.png" width="100" alt="logo" />
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="#hero"><span>Home</span></a>
+          </li>
+          <li><a href="#kategori">Category</a></li>
+          <li><a href="#about">About</a></li>
+          <div class="nav-btn">
+            <button id="sign-in">
+              <img
+                src="https://imgur.com/UQSutsB.png"
+                width="30"
+                alt="username"
+              />
+              Skilvul - FE 15
+            </button>
+          </div>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Home -->
+      <section id="hero">
+        <div id="hero-greeting">
+          <h1>
+            EXPLORE YOUR KNOWLEDGE<br /><span id="span-h1">WITH LEARNY</span>
+          </h1>
+          <p>With Various Learning Methods.</p>
+        </div>
+        <div class="hero-image">
+          <img
+            src="https://imgur.com/IZHuW6y.png"
+            width="244"
+            alt="back-banner"
+          />
+        </div>
+        <div class="banner">
+          <img src="https://imgur.com/OKmgxFU.png" width="500" alt="banner" />
+        </div>
+      </section>
+
+      <!-- Category -->
+      <section id="category">
+        <div class="j-category">
+          <h1>LEARNING <span>CATEGORY</span></h1>
+          <p>Learny provides 3 learning categories</p>
+        </div>
+        <div class="card-cat">
+          <div class="cat">
+            <div class="card">
+              <img src="https://imgur.com/cbb8waN.png" width="75" alt="Ebook" />
+              <h3 class="judul"><b>E-BOOK</b></h3>
+              <p>
+                Providing various <br />
+                categories of books <br />
+                such as novels, textbooks, and others.
+              </p>
+            </div>
+          </div>
+          <div class="cat">
+            <div class="card">
+              <img
+                src="https://imgur.com/uuEofnh.png"
+                width="75"
+                alt="Articles"
+              />
+              <h3 class="judul"><b>ARTICLES</b></h3>
+              <p>
+                Providing various <br />
+                articles that contain <br />
+                knowledge, information, and others.
+              </p>
+            </div>
+          </div>
+          <div class="cat">
+            <div class="card">
+              <img src="https://imgur.com/pU99Cat.png" width="75" alt="video" />
+              <h3 class="judul"><b>VIDEO LEARNING</b></h3>
+              <p>
+                Providing various <br />
+                types of educational <br />
+                videos such as bullying prevention..
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--ebook-->
+      <section id="e-book">
+        <div class="j-book">
+          <h1>OUR <span>POPULAR</span> E-BOOKS</h1>
+        </div>
+        <div class="e-books">
+          <img src="https://imgur.com/OL9rAR1.png" width="300" alt="book1" />
+          <img src="https://imgur.com/QuIHXJZ.png" width="328" alt="book2" />
+          <img src="https://imgur.com/nVSjwS2.png" width="335" alt="book3" />
+        </div>
+        <div class="see-btn">
+          <button id="see2">SEE MORE</button>
+        </div>
+      </section>
+
+      <!--- Articles -->
+      <section id="artikel">
+        <div class="j-artikel">
+          <h1>OUR <span>RECOMMENDED</span> ARTICLES</h1>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="b-card">
+              <img src="https://imgur.com/cokSfB0.png" alt="" />
+              <h4>Apa itu HTML? Lihat Fungsi Hingga Sejarahnya</h4>
+              <p>
+                HTML adalah bahasa markup standar untuk membuat halaman website.
+                Bahasa ini berfungsi untuk membuat struktur website ...
+              </p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="b-card">
+              <img src="https://imgur.com/oyAn9al.png" alt="" />
+              <h4>Pengertian PHP dan Fungsinya Dalam Pemrograman Web</h4>
+              <p>
+                Ada banyak jenis bahasa pemrograman yang bisa Anda gunakan dalam
+                pembuatan ...
+              </p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="b-card">
+              <img src="https://imgur.com/wFtHdMT.png" alt="" />
+              <h4>UI/UX: Perbedaan UI dan UX Beserta Contoh</h4>
+              <p>
+                Kita semua tentu sudah tidak asing lagi dengan istilah UI/UX. UI
+                sendiri merupakan...
+              </p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+          </div>
+          <div class="see-btn2">
+            <button id="see1">SEE MORE</button>
+          </div>
+        </div>
+      </section>
+
+      <!--Form Kontak-->
+      <section id="kontak">
+        <div id="isi-form">
+          <div id="j-kontak">
+            <h6>KONTAK</h6>
+          </div>
+          <form id="form">
+            <input type="text" id="name" placeholder="Name" />
+            <input type="text" id="city" placeholder="City" />
+            <input type="email" id="email" placeholder="Email" />
+            <input type="number" id="zip-code" placeholder="Kode pos" />
+            <label for="check" id="check"
+              >Dengan ini saya menyatakan data yang diisi pada form ini adalah
+              benar dan telah sesuai</label
+            >
+            <input type="checkbox" id="status" />
+            <button type="submit" id="submit-form">SUBMIT</button>
+            <div id="warning"></div>
+          </form>
+        </div>
+      </section>
+
+      <!---Learny-->
+      <section id="learny">
+        <div class="j-learny">
+          <h1>
+            <span>WHAT</span> IS
+            <img src="https://imgur.com/btzqkXl.png" width="125" alt="" /> ?
+          </h1>
+        </div>
+        <p id="description">
+          “Learny is an online platform that aims to improve students' literacy
+          skills by providing easy and fast access to various literacy
+          resources. At Learny, we believe that literacy is the key to success
+          in studies and in life. That's why we are committed to providing a
+          collection of high-quality and varied literacy resources to help
+          students gain a better understanding of the material they are
+          studying.”
+        </p>
+        <div class="read">
+          <button id="read1">READ MORE</button>
+        </div>
+      </section>
+
+      <!---Sosmed-->
+      <section id="sosmed">
+        <div id="media">
+          <div id="logo2">
+            <img src="https://imgur.com/btzqkXl.png" width="250" alt="logo" />
+          </div>
+        </div>
+        <div id="skilvul">
+          <h6>Challenge Partner</h6>
+          <img
+            src="https://imgur.com/RJFPPO3.png"
+            alt="Skilvul"
+            width="150"
+          /><br />
+          <a id="link" href="https://skilvul.com">Visit Skilvul</a>
+        </div>
+        <div id="list">
+          <ul>
+            <h6>Page</h6>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Category</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <ul>
+            <h6>Learning Category</h6>
+            <li><a href="#">E-Books</a></li>
+            <li><a href="#">Articles</a></li>
+            <li><a href="#">Video Learning</a></li>
+          </ul>
+          <ul>
+            <h6>Contact</h6>
+            <li><a href="#">0251 12345678</a></li>
+            <li><a href="#">learnyindonesia@gmail.com</a></li>
+            <li><a href="#">Jakarta Indonesia</a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </body>
+  <footer>
+    <p>Copyright2023LearnyIndonesia</p>
+  </footer>
+</html>
